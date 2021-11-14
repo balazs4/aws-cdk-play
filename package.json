@@ -1,0 +1,19 @@
+{
+  "name": "aws-cdk-play",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cdk": "npx -q -p aws-cdk cdk --app cdk.js"
+  },
+  "author": "balazs4",
+  "license": "MIT",
+  "type": "module",
+  "prettier": {
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "@aws-cdk/aws-lambda": "1.132.0",
+    "@aws-cdk/core": "1.132.0"
+  }
+}
